@@ -1,0 +1,31 @@
+<div data-role="page">
+  <div data-role="header">
+    <h1><%=_"Preferences"%></h1>
+  </div>
+  <div data-role="content">
+    <form method="post" action="<%=url_for(:action => :save, :query => {:choice => :dosave})%>">
+      <div data-role="fieldcontain">
+        <label for="texuser" class="fieldLabel"><%=_"Hostname"%></label>
+        <input type="text" name="texhost" value="<%=Knj::Web.html(Knj::Opts.get("openall_host"))%>" />
+      </div>
+      <div data-role="fieldcontain">
+        <label for="texuser" class="fieldLabel"><%=_"Port"%></label>
+        <input type="text" name="texport" id="texporft" value="<%=Knj::Web.html(Knj::Opts.get("openall_port"))%>" />
+      </div>
+      <div data-role="fieldcontain">
+        <label for="chessl" class="fieldLabel">SSL</label>
+        <input type="checkbox" name="chessl" id="chessl"<%if Knj::Opts.get("openall_ssl").to_i == 1%> checked="checked"<%end%> />
+      </div>
+      <div data-role="fieldcontain">
+        <label for="texuser" class="fieldLabel"><%=_"Username"%></label>
+        <input type="text" name="texuser" id="texuser" value="<%=Knj::Web.html(Knj::Opts.get("openall_username"))%>" />
+      </div>
+      <div data-role="fieldcontain">
+        <label for="texpasswd" class="fieldLabel"><%=_"Password"%></label>
+        <input type="password" name="texpasswd" id="texpasswd" value="<%=Knj::Web.html(Base64.strict_decode64(Knj::Opts.get("openall_password")))%>" />
+      </div>
+      
+      <button type="submit"><%=_"Save"%></button>
+    </form>
+  </div>
+</div>

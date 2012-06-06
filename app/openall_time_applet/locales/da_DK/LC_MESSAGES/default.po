@@ -1,0 +1,321 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Openall_time_applet\n"
+"POT-Creation-Date: 2012-05-25 10:56+0100\n"
+"PO-Revision-Date: 2012-05-25 10:58+0100\n"
+"Last-Translator: Kasper Johansen <k@spernj.org>\n"
+"Language-Team: Kasper Johansen <k@spernj.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ../../../\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/connection.rb:24
+msgid "Could not log in."
+msgstr "Kunne ikke logge ind."
+
+#: classes/connection.rb:39
+msgid "Empty body returned from OpenAll."
+msgstr "Tom body returneret fra OpenAll."
+
+#: classes/connection.rb:45
+msgid "Could not parse JSON from: %s"
+msgstr "Kunne ikke oversætte JSON fra: %s"
+
+#: classes/translations.rb:4
+msgid "Monday"
+msgstr "Mandag"
+
+#: classes/translations.rb:5
+msgid "Thuesday"
+msgstr "Tirsday"
+
+#: classes/translations.rb:6
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: classes/translations.rb:7
+msgid "Thursday"
+msgstr "Torsday"
+
+#: classes/translations.rb:8
+msgid "Friday"
+msgstr "Freday"
+
+#: classes/translations.rb:9
+msgid "Saturday"
+msgstr "Lørday"
+
+#: classes/translations.rb:10
+msgid "Sunday"
+msgstr "Søndag"
+
+#: gui/trayicon.rb:84
+msgid "New timelog"
+msgstr "Ny tidslog"
+
+#: gui/trayicon.rb:88
+msgid "Overview"
+msgstr "Oversigt"
+
+#: gui/trayicon.rb:92
+msgid "Time overview"
+msgstr "Tids oversigt"
+
+#: gui/trayicon.rb:102
+msgid "Synchronize with OpenAll"
+msgstr "Synkroniserer med OpenAll"
+
+#: gui/trayicon.rb:115
+msgid "Track: %s"
+msgstr "Følg: %s"
+
+#: gui/trayicon.rb:139
+msgid "%s minutes"
+msgstr "%s minutter"
+
+#: gui/win_overview.rb:11
+msgid "ID"
+msgstr "ID"
+
+#: gui/win_overview.rb:11
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: gui/win_overview.rb:11
+msgid "Time"
+msgstr "Tid"
+
+#: gui/win_overview.rb:11
+msgid "Transport"
+msgstr "Transport"
+
+#: gui/win_overview.rb:11
+msgid "Needs sync"
+msgstr "Behøver sync"
+
+#: gui/win_overview.rb:11
+msgid "Task"
+msgstr "Opgave"
+
+#: gui/win_overview.rb:29
+msgid "Yes"
+msgstr "Ja"
+
+#: gui/win_overview.rb:29
+msgid "No"
+msgstr "Nej"
+
+#: gui/win_preferences.rb:30
+msgid "Black"
+msgstr "Sort"
+
+#: gui/win_preferences.rb:30
+msgid "White"
+msgstr "Hvid"
+
+#: gui/win_preferences.rb:42
+msgid "The OpenAll-settings was saved."
+msgstr "OpenAll-indstillinger blev gemt."
+
+#: gui/win_preferences.rb:47
+msgid "Reminder-minute was not numeric."
+msgstr "Påmindelses-minutter var ikke et gyldigt tal."
+
+#: gui/win_preferences.rb:57
+msgid "The reminder-settings was saved."
+msgstr "Påmindelses-indstillinger blev gemt."
+
+#: gui/win_preferences.rb:64
+msgid "The tray-settings was saved."
+msgstr "Tray-indstillinger blev gemt."
+
+#: gui/win_preferences.rb:70
+msgid "Connecting and logging in..."
+msgstr "Forbinder og logger ind..."
+
+#: gui/win_preferences.rb:78
+msgid "Getting task-list."
+msgstr "Henter opgave-liste."
+
+#: gui/win_preferences.rb:81
+msgid "Got %s tasks."
+msgstr "Hentet %s opgaver."
+
+#: gui/win_preferences.rb:89
+#: lib/openall_time_applet.rb:254
+msgid "Error"
+msgstr "Fejl"
+
+#: gui/win_worktime_overview.rb:24
+msgid "Week %s"
+msgstr "Uge %s"
+
+#: gui/win_worktime_overview.rb:115
+msgid "No worktimes was found that week."
+msgstr "Der blev ikke fundet nogle arbejdstimer i denne uge."
+
+#: gui/win_timelog_edit.rb:11
+msgid "None"
+msgstr "Ingen"
+
+#: gui/win_timelog_edit.rb:47
+msgid "You have entered an invalid time-format."
+msgstr "Du har indtastet et ugyldigt tids-format."
+
+#: gui/win_timelog_edit.rb:58
+msgid "You have entered an invalid transport-time-format."
+msgstr "Du har indtastet et ugyldigt transport-tids-format."
+
+#: gui/win_timelog_edit.rb:88
+msgid "Do you want to remove this timelog? This will not delete the timelog on OpenAll."
+msgstr "Vil du fjerne denne tidslogning? Dette vil ikke slette tidslogningen fra OpenAll."
+
+#: gui/win_sync_overview.rb:9
+msgid "Synchronize"
+msgstr "Synkroniser"
+
+#: gui/win_sync_overview.rb:57
+msgid "There is nothing to sync at this time."
+msgstr "Der er intet at synce på nuværende tidspunkt."
+
+#: gui/win_sync_overview.rb:72
+msgid "Time was not numeric for: '%s'."
+msgstr "Tid var ikke numerisk for: '%s'."
+
+#: lib/openall_time_applet.rb:104
+msgid "not set"
+msgstr "ikke sat"
+
+#: lib/openall_time_applet.rb:149
+msgid "Tracking task: %s"
+msgstr "Følger opgave: %s"
+
+#: lib/openall_time_applet.rb:234
+msgid "Updating organisation-cache."
+msgstr "Opdaterer organisations-cache."
+
+#: lib/openall_time_applet.rb:238
+msgid "Updating task-cache."
+msgstr "Opdaterer opgave-cache."
+
+#: lib/openall_time_applet.rb:242
+msgid "Pushing time-updates."
+msgstr "Sender tids-opdateringer."
+
+#: lib/openall_time_applet.rb:246
+msgid "Updating worktime-cache."
+msgstr "Opdaterer arbejdstids-cache."
+
+#: lib/openall_time_applet.rb:250
+msgid "Done"
+msgstr "Færdig"
+
+#: glade/win_worktime_overview.glade:7
+msgid "Week status"
+msgstr "Uge status"
+
+#: glade/win_worktime_overview.glade:51
+msgid "Week"
+msgstr "Uge"
+
+#: glade/win_timelog_edit.glade:7
+msgid "Timelog"
+msgstr "Tidslog"
+
+#: glade/win_timelog_edit.glade:150
+msgid "Should sync"
+msgstr "Skal synces"
+
+#: glade/win_timelog_edit.glade:167
+msgid "Start tracking after saving"
+msgstr "Starter med at følge efter gem"
+
+#: glade/win_timelog_edit.glade:188
+#: glade/win_sync_overview.glade:40
+msgid "<b>Timelog</b>"
+msgstr "<b>Tidslog</b>"
+
+#: glade/win_preferences.glade:7
+msgid "Preferences"
+msgstr "Indstillinger"
+
+#: glade/win_preferences.glade:35
+msgid "Host"
+msgstr "Host"
+
+#: glade/win_preferences.glade:46
+msgid "Username"
+msgstr "Brugernavn"
+
+#: glade/win_preferences.glade:94
+msgid "Password"
+msgstr "Adagngskode"
+
+#: glade/win_preferences.glade:126
+msgid "Port"
+msgstr "Port"
+
+#: glade/win_preferences.glade:155
+msgid "SSL"
+msgstr "SSL"
+
+#: glade/win_preferences.glade:190
+msgid "Test"
+msgstr "Test"
+
+#: glade/win_preferences.glade:243
+msgid "OpenAll"
+msgstr "OpenAll"
+
+#: glade/win_preferences.glade:267
+msgid "Reminder enabled"
+msgstr "Påmindelser slået til"
+
+#: glade/win_preferences.glade:283
+msgid "Remind every minute"
+msgstr "Påmind hver minut"
+
+#: glade/win_preferences.glade:372
+msgid "Reminder"
+msgstr "Påminder"
+
+#: glade/win_preferences.glade:398
+msgid "Text color"
+msgstr "Tekst farve"
+
+#: glade/win_preferences.glade:478
+msgid "Tray"
+msgstr "Tray"
+
+#: glade/win_sync_overview.glade:7
+msgid "Overview of sync"
+msgstr "Oversigt over synk"
+
+#: glade/win_sync_overview.glade:49
+msgid "<b>Logged time</b>"
+msgstr "<b>Logget tid</b>"
+
+#: glade/win_sync_overview.glade:62
+msgid "<b>Sync. as time</b>"
+msgstr "<b>Synk. som tid</b>"
+
+#: glade/win_sync_overview.glade:114
+msgid "<b>Sync with OpenAll</b>"
+msgstr "<b>Synk med OpenAll</b>"
+
+#: glade/win_overview.glade:54
+msgid "<b>Timelogs</b>"
+msgstr "<b>Tidslogs</b>"
+
+#~ msgid "%s seconds"
+#~ msgstr "%s sekunder"
+
+#~ msgid "URL"
+#~ msgstr "URL"

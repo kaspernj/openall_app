@@ -1,0 +1,17 @@
+<div data-role="page" data-url="<%=Rho::RhoConfig.start_path%>/">
+  <div data-role="header" data-position="inline">
+    <h1><%=_"OpenAll App"%></h1>
+    
+    <a href="<%=url_for(:controller => :Preferences, :action => :index)%>" class="ui-btn-right" data-icon="gear">
+      <%=_"Settings"%>
+    </a>
+  </div>
+  
+  <div data-role="content">
+    <ul data-role="listview">
+      <li><a href="<%=url_for(:controller => :Timelog, :action => :edit)%>"><%=_"New timelog"%></a></li>
+      <li><a href="<%=url_for(:controller => :Overview, :action => :index)%>"><%=_"Overview"%></a></li>
+      <li><a href="<%=url_for(:controller => :Overview, :action => :time)%>"><%=_"Time overview"%></a></li>
+    </ul>
+  </div>
+</div>

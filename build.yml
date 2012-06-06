@@ -1,0 +1,25 @@
+#sdk: "/usr/share/ruby-rvm/gems/ruby-1.9.2-head/gems/rhodes-3.3.3"
+sdkversion: 3.3.3
+name: OpenAllApp
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.0
+  provisionprofile:
+  codesignidentity:
+  entitlements:
+  BundleIdentifier: com.rhomobile.openallapp
+  BundleURLScheme: openallapp
+wp:
+  productid: '7946b480-91eb-012f-631f-184be1ecacae'
+symbian:
+  uid: '0xe3766046'
+android:
+  version: 2.1
+  android_title: 0
+
+extensions: ["base64", "json", "timeout", "digest", "digest-md5", "thread", "timeout"]

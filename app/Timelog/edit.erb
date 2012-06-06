@@ -1,0 +1,23 @@
+<div data-role="page">
+  <div data-role="header">
+    <h1><%=Knj::Web.html(@title)%></h1>
+  </div>
+  <div data-role="content">
+    <form method="post" action="<%=url_for(:controller => :Timelog, :action => :save, :query => {:id => @params["id"]})%>">
+      <div data-role="fieldcontain">
+        <label for="texdescr"><%=_"Description"%></label>
+        <input type="text" name="texdescr" id="texdescr" value="<%=Knj::Web.html(@descr)%>" />
+      </div>
+      <div data-role="fieldcontain">
+        <label for="textime"><%=_"Time"%></label>
+        <input type="text" name="textime" id="textime" value="<%=Knj::Web.html(@time)%>" />
+      </div>
+      <div data-role="fieldcontain">
+        <label for="textransport"><%=_"Transport"%></label>
+        <input type="text" name="textransport" id="textransport" value="<%=Knj::Web.html(@transport)%>" />
+      </div>
+      
+      <button type="submit"><%=_"Save"%></button>
+    </form>
+  </div>
+</div>

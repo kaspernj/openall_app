@@ -1,0 +1,35 @@
+<div data-role="page">
+  <div data-role="header">
+    <h1><%=_"Overview"%></h1>
+  </div>
+  <div data-role="content">
+    <ul data-role="listview">
+      <%
+        count = 0
+        $rhodes.ob.list(:Timelog, {"orderby" => "descr"}) do |timelog|
+          count += 1
+          
+          %>
+            <li>
+              <a href="<%=url_for(:controller => :Timelog, :action => :edit, :query => {:id => timelog.id})%>">
+              
+              <h3><%=Knj::Web.html(timelog[:descr])%></h3>
+              
+              <p><%=timelog.time_as_human%>, <%=timelog.time_transport_as_human%></p>
+              
+              </a>
+            </li>
+          <%
+        end
+        
+        if count <= 0
+          %>
+            <li>
+              <%=_"No timelogs was found."%>
+            </tr>
+          <%
+        end
+      %>
+    </ul>
+  </div>
+</div>
